@@ -17,5 +17,7 @@ function MDC1(n1, n2) {
         else { i += 1 }
     }
 
-    console.log(`O MDC do número ${n1} e número ${n2} é de: ${mdc}`)
+    return mdc
 }
+
+module.exports = { MDC1 }

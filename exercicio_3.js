@@ -10,6 +10,9 @@ function soma_multiplos() {
         }
     }
 
-    console.log(`A soma dos múltiplos de 5 e 7 abaixo de 1000 é: ${soma}`);
+    return soma
 
 }
+
+module.exports = { soma_multiplos }
+
